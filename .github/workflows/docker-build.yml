@@ -60,7 +60,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .
-          file: ./Dockerfile
+          file: ./docker/Dockerfile
           push: true
           # 架构编译策略：
           # 如果你在甲骨文等 ARM 服务器上运行，保留 linux/arm64。
